@@ -1,0 +1,6 @@
+{
+  "name": "discord-rpc",
+  "version": "1.0.0",
+  "description": "Discord Rich Presence (RPC) & comprehensive activity logger for Antigravity CLI",
+  "author": "Antigravity Pair Programmer"
+}

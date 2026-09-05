@@ -1,0 +1,44 @@
+{
+  "discord-rpc": {
+    "PreInvocation": [
+      {
+        "type": "command",
+        "command": "python scripts/hook_handler.py PreInvocation"
+      }
+    ],
+    "PostInvocation": [
+      {
+        "type": "command",
+        "command": "python scripts/hook_handler.py PostInvocation"
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python scripts/hook_handler.py PreToolUse"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python scripts/hook_handler.py PostToolUse"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "type": "command",
+        "command": "python scripts/hook_handler.py Stop"
+      }
+    ]
+  }
+}

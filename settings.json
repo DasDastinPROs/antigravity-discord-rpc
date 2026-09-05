@@ -1,0 +1,57 @@
+{
+  "$schema_info": "Antigravity CLI Discord RPC & Activity Logger Settings",
+  "general": {
+    "client_id": "1545821431181344850",
+    "public_key": "202d60f72e7afd3555eb09003cc121bc272eb1cd7313b4970e05ac7e712599d6",
+    "auto_spawn_daemon": true,
+    "idle_timeout_seconds": 300,
+    "update_interval_seconds": 2.5
+  },
+  "display": {
+    "show_workspace": true,
+    "workspace_alias": "",
+    "show_git_branch": true,
+    "show_thinking_effort": true,
+    "show_files_changed": true,
+    "show_lines_diff": true,
+    "show_file_names": true,
+    "show_step_counter": true,
+    "show_tool_counter": true,
+    "timer_mode": "session",
+    "details_template": "{model} ({effort} Effort)",
+    "state_template": "{emoji} {action} {diff_info} {branch_info} {files_info}",
+    "large_text_template": "Antigravity CLI • {workspace}",
+    "small_text_template": "{effort} Effort • Step {step} • {tool_count} tools"
+  },
+  "emojis": {
+    "thinking": "🧠",
+    "editing": "📝",
+    "command": "⚡",
+    "reading": "📖",
+    "searching": "🔍",
+    "processing": "✨",
+    "idle": "💤"
+  },
+  "assets": {
+    "large_image": "antigravity",
+    "thinking_image": "thinking",
+    "editing_image": "edit",
+    "command_image": "edit",
+    "idle_image": "idle"
+  },
+  "buttons": [
+    {
+      "label": "Download Plugin",
+      "url": "https://github.com/DasDastinPROs/antigravity-discord-rpc"
+    },
+    {
+      "label": "Antigravity CLI",
+      "url": "https://antigravity.google"
+    }
+  ],
+  "logging": {
+    "enabled": true,
+    "log_file_path": "~/.gemini/antigravity-cli/discord-rpc/logs/activity.log",
+    "state_file_path": "~/.gemini/antigravity-cli/discord-rpc/state.json"
+  }
+}

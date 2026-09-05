@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "discord-rpc": {
+      "command": "python",
+      "args": [
+        "C:\\Users\\Lil-D\\.gemini\\config\\plugins\\discord-rpc\\scripts\\mcp_discord_server.py"
+      ]
+    }
+  }
+}
